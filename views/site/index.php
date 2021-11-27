@@ -190,7 +190,7 @@ $this->title = 'My Yii Application';
                     <h5 class="card-title">Таблица</h5>
 
                     <!-- Table with stripped rows -->
-                    <table class="table table-striped">
+                    <table class="table table-sm table-striped">
                         <thead>
                         <tr>
                             <th scope="col">Дата</th>
