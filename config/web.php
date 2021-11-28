@@ -43,14 +43,16 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
             ],
         ],
-        */
+        'AccessLogComponent' => [
+            'class' => 'app\components\AccessLogComponent',
+        ],
+
     ],
     'params' => $params,
 ];
